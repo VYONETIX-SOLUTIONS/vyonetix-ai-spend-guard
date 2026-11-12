@@ -7,7 +7,7 @@ info:
     workload cost estimates. Estimates use Models.dev's MIT-licensed catalog
     and do not claim equal model quality, official invoices, or guaranteed savings.
 servers:
-  - url: https://vyonetix-ai-spend-guard.sudheer-135.workers.dev
+  - url: https://vyonetix-ai-spend-guard.p.rapidapi.com
     description: Controlled Cloudflare Workers pilot origin; use through RapidAPI.
 security:
   - RapidAPIKey: []
