@@ -7,8 +7,8 @@ info:
     workload cost estimates. Estimates use Models.dev's MIT-licensed catalog
     and do not claim equal model quality, official invoices, or guaranteed savings.
 servers:
-  - url: http://127.0.0.1:8787
-    description: Local Wrangler development only; no public consumer server is currently listed.
+  - url: https://vyonetix-ai-spend-guard.sudheer-135.workers.dev
+    description: Controlled Cloudflare Workers pilot origin; use through RapidAPI.
 security:
   - RapidAPIKey: []
 paths:
