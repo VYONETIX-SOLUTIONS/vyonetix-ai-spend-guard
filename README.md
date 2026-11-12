@@ -2,6 +2,8 @@
 
 **Purpose:** turn a public AI model rate catalog and a caller's token workload into a traceable USD cost estimate. It helps developers model AI inference unit economics before deploying a workload.
 
+**Availability:** this company-owned source repository is public, but the RapidAPI project is still a private draft and has no public consumer endpoint. The RapidAPI host shown in the examples is intended for the listing after publication; it is not currently available for consumer signup or gateway use.
+
 This is an estimate utility, not an inference gateway, provider invoice, purchasing recommendation, or claim that different models have equal quality. It does not send prompts to model vendors, accept provider keys, or retain workload requests.
 
 ## API operations
