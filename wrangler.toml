@@ -1,0 +1,9 @@
+name = "vyonetix-ai-spend-guard"
+main = "worker.js"
+compatibility_date = "2026-11-12"
+account_id = "13541b9bf09f4ab6e460a1aa8602b570"
+workers_dev = true
+preview_urls = false
+
+[observability]
+enabled = true

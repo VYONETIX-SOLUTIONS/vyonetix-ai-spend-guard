@@ -1,0 +1,2 @@
+# Copy to .dev.vars and fill using an ignored local secret file.
+RAPIDAPI_PROXY_SECRET=replace-with-a-random-secret-of-at-least-32-characters

@@ -1,0 +1,8 @@
+{
+  "name": "vyonetix-ai-spend-guard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}
