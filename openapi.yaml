@@ -8,7 +8,7 @@ info:
     and do not claim equal model quality, official invoices, or guaranteed savings.
 servers:
   - url: https://vyonetix-ai-spend-guard.p.rapidapi.com
-    description: Controlled Cloudflare Workers pilot origin; use through RapidAPI.
+    description: Public RapidAPI consumer gateway; authenticate with your RapidAPI consumer key.
 security:
   - RapidAPIKey: []
 paths:
