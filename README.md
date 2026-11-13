@@ -6,6 +6,12 @@
 
 This is an estimate utility, not an inference gateway, provider invoice, purchasing recommendation, or claim that different models have equal quality. It does not send prompts to model vendors, accept provider keys, or retain workload requests.
 
+## GitHub Actions budget gate (technical preview)
+
+The company also publishes a [Vyonetix AI Spend Guard Budget Gate action](https://github.com/VYONETIX-SOLUTIONS/vyonetix-ai-spend-guard-action). It submits a caller-defined model and token-volume workload to `POST /v1/workloads/estimate`, reports the returned estimate and source timestamps in the workflow summary, and fails the job when the estimate exceeds the configured budget. It does not enforce runtime spend, inspect prompts, or use provider credentials.
+
+The action is a technical preview. Vyonetix has not independently verified this estimate route through a distinct RapidAPI consumer. Treat estimates as pre-deployment scenarios, review current provider rates, and do not make the action a required branch-protection check until your own consumer-path verification succeeds. See the action repository for setup, secret handling, limitations, sample configuration, and its MIT code licence; that licence does not grant a licence to this API service or its data sources.
+
 ## API operations
 
 | Operation | Purpose |
