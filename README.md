@@ -97,3 +97,7 @@ This version estimates text input, output, and explicitly provided cache token c
 ## Licence
 
 The Models.dev dataset is used under MIT and is attributed in API responses. This notice applies to that upstream dataset. The Vyonetix service implementation has no additional licence grant in this repository.
+
+## Related Vyonetix API
+
+For CI workflows that need source-linked vulnerability and malicious-package evidence, see [Vyonetix Developer Risk Signals on RapidAPI](https://rapidapi.com/vyonetix-solutions-vyonetix-solutions-default/api/vyonetix-developer-risk-signals) and its [free sample and integration repository](https://github.com/VYONETIX-SOLUTIONS/vyonetix-developer-risk-signals-demo).
