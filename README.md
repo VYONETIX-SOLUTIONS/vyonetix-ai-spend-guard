@@ -1,5 +1,19 @@
 # VYONETIX-SOLUTIONS AI Spend Guard API
 
+## Plans and getting started
+
+Choose a plan on the public RapidAPI listing, then use the endpoint examples below with your RapidAPI key. The listing currently shows these monthly tiers:
+
+| Plan | Price | Monthly request cap | Rate limit |
+|---|---:|---:|---:|
+| BASIC | $0 | 1,000 | 1,000 requests/hour |
+| PRO | $9.99 | 10,000 | 2 requests/second |
+| ULTRA | $29.99 | 100,000 | 5 requests/second |
+| MEGA | $99.99 | 500,000 | 10 requests/second |
+
+Monthly request limits are hard caps. RapidAPI lists a 10,240 MB monthly bandwidth allowance and US$0.001 per additional MB; its free-plan flow may ask for a payment card. Review the current plan terms before subscribing. These tiers meter API access; they do not enforce runtime model spend. This early-access API has no availability SLA, and its consumer routes still need independent end-to-end verification.
+
+
 **Purpose:** turn a public AI model rate catalog and a caller's token workload into a traceable USD cost estimate. It helps developers model AI inference unit economics before deploying a workload.
 
 **Availability:** the public RapidAPI listing is live under the VYONETIX SOLUTIONS organization: [Vyonetix AI Spend Guard](https://rapidapi.com/vyonetix-solutions-vyonetix-solutions-default/api/vyonetix-ai-spend-guard). Its current Free BASIC plan shows 1,000 requests/month; the page also retains a legacy BASIC Deprecated card. RapidAPI's health check reports SUCCESS. Consumer signup/card requirements and an independent external route test are not verified; this remains a controlled pilot with no availability SLA.
